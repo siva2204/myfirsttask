@@ -144,6 +144,7 @@ function fn4(id){
 	if (id.innerHTML==21){
 
         recordtimes=JSON.parse(localStorage.getItem("recordtimes"));
+	recordtimes.sort();	
         document.getElementById("bt").innerHTML=recordtimes[0];
 
     }
