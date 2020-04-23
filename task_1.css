@@ -71,11 +71,10 @@ body{
 #footer{
 	
 	text-align: center;
-	margin: 15px 5px;
+	margin: 15px auto;
 	visibility: hidden;
-
-
-	
+	width: 634px;
+		
 }
 #restartbtn {
 	margin-top: 20px;
