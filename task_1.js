@@ -52,7 +52,7 @@ function stopwatch(){
 function fn3(id){
     if(id.innerHTML==" "){
     		window.clearInterval(interval);
-			document.getElementById('footer').style.visibility="visible";
+	        document.getElementById('footer').style.visibility="visible";
     	    
 		    
 			
@@ -77,7 +77,7 @@ function fn3(id){
 		    	localStorage.setItem("recordtimes",JSON.stringify(recordtimes));
 		    }
 		    recordtimes.sort();
-            document.getElementById("0").innerHTML=recordtimes[0];
+                document.getElementById("0").innerHTML=recordtimes[0];
 	        document.getElementById("1").innerHTML=recordtimes[1];
 	        document.getElementById("2").innerHTML=recordtimes[2];
 	        document.getElementById("3").innerHTML=recordtimes[3];
