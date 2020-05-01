@@ -6,6 +6,7 @@ var x=numb.length-1;
 var y=numb1.length-1;
 var z=numb2.length-1;
 
+
 var status=0;
 
 
